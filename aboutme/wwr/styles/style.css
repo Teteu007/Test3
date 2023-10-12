@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Roboto:wght@500&display=swap');
 body{
     width: 1600px;
     margin: 0 auto;
@@ -7,12 +8,19 @@ nav a{
 text-align: center;
 color: white;
 text-decoration: none;
+padding: 35px;
 }
+#hero{
+    border: 2px solid #14213d;
+}
+
 #hero-msg h1, #hero-msg h4{
 text-align: center;
 }
 .button-box{
 text-align: center;
+padding: 35px;
+
 }
 main section{
     text-align: center;
@@ -20,11 +28,17 @@ main section{
 
 #background {
     height: 725px;
+    padding: 35px;
+    margin-top: 55px;
 }
 
-body{
+body {
     background-color: #e5e5e5;
-    color:black
+    color:black;
+    font-size: 22px;
+    margin: 0px;
+    padding: 0;
+    
 }
 header{
     background-color: #14213d;
@@ -38,6 +52,10 @@ nav a:hover{
     background-color: #fca311 ;
     color:white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #fca311;
@@ -46,15 +64,20 @@ nav a:hover{
 #background{
     background-color: #fca311;
     color:white;
+    margin-bottom: 70px;
 }
 .msg{
     background-color: #14213d;
     color:white;
-    
+    line-height: 1.5em;
+    padding-top: 25px;
+    padding-bottom:50px;
+    margin: 200px 0;
 }
 footer{
     background-color: #14213d;
     color: #e5e5e5;
+    margin-top: 50px ;
 }
 
 footer a{
@@ -64,7 +87,9 @@ footer a{
 
 footer p {
     font-size: 1.2em;
-}    
+    line-height: 1.5em;
+    padding: 15px 30px   
+}
 
 footer p a:hover {
     text-decoration: underline;
@@ -75,10 +100,51 @@ footer p a:hover {
     width: 80px; /* Largura de 80px para o logotipo */
 }
 
-#social {
-    width: 80px; /* Largura de 80px para todos os ícones do cartão */
+.social {
+    padding: 25px;
+   
+    
 }
 
 #hero-img {
-    width: 100%; /* Largura de 100% para a imagem do herói */
+    width: 100%; 
+}
+
+.home-title {
+    font-family: 'Mooli', Courier,sans-serif;
+    font-size: 2em;
+    line-height: 1.5em;
+    margin-top: 10px;
+}
+h3,h4{
+    font-family: 'Roboto', Arial, sans-serif; 
+    font-size: 2em;
+    line-height: 1.5em;
+}
+h2{
+    margin: 0;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin-top: 200px;
+}
+
+.icon{
+    padding:10px;
+}
+
+#logo_link{
+    padding: 15px;
+}
+
+.social a {
+    padding: 3px;
+    
+}
+
+.card-img {
+    border: 10px solid #fca311;
+}
+main section img {
+    box-sizing: border-box;
 }
