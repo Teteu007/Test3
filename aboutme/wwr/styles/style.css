@@ -1,21 +1,25 @@
 @import url(https://fonts.googleapis.com/css2?family=Mooli&family=Roboto:wght@500&display=swap);
 
+#content {
+    max-width: 1600px; margin: 0 auto; 
+}
+
 body{
     width: 1600px;
     margin: 0 auto;
 }
 
 nav a{
-text-align: center;
-color: white;
-text-decoration: none;
-padding: 35px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
 
 }
 
 nav{
     display: flex;
-justify-content: space-around;
+    justify-content: space-around;
 }
 
 #hero{
@@ -57,8 +61,8 @@ justify-content: space-around;
 }
 
 .button-box{
-text-align: center;
-padding: 35px;
+    text-align: center;
+    padding: 35px;
 
 }
 main section{
